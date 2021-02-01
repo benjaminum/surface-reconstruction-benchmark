@@ -135,7 +135,7 @@ class ImplicitSphere : public ImplicitFunction {
 			else
 				exec_rm = "rm " + sample_out + ".npts " + sample_out + ".ptcl";
 
-			int rm_result = system(exec_rm.c_str());
+			//int rm_result = system(exec_rm.c_str());
 
 			return all_points;
 		}
